@@ -1,0 +1,130 @@
+html {
+  background-color: white;
+}
+
+/************************************/
+/*************body*******************/
+/************************************/
+
+body {
+  background-color: rgb(232, 227, 227);
+  max-width: 600px;
+  width: calc(100% - 300px);
+  margin: 0 auto;
+}
+.ellipsis {
+  width: 400px; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 5px 10px 5px 10px;
+}
+
+/************************************/
+/*************header*****************/
+/************************************/
+
+header {
+  background-color:rgb(161, 159, 159);
+  color: rgb(55,54,54);
+  padding:5px 20px 5px 20px;
+}
+
+/************************************/
+/**********nav***********************/
+/************************************/
+
+nav{
+  padding: 5px 20px 5px 20px ;
+}
+
+
+
+/************************************/
+/**********now_datetime_area*********/
+/************************************/
+
+#now_datetime_area {
+  height: 100px;
+  width: 550px;
+  padding: 10px 20px 10px 20px;
+}
+
+#now_datetime_grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+#now_datetime {
+  font-size: 30px;
+}
+
+
+#register_button {
+  background-color:rgb(161, 159, 159);
+  color:rgb(55, 54, 54) ;
+  width: 550px;
+  font-weight:bold;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  border-radius:10px;
+}
+
+
+/************************************/
+/**********prev_area*****************/
+/************************************/
+
+#prev_area {
+  background-color:rgb(211,203,203);
+  height: 130px;
+  width: 530px;
+  margin: 25px;
+  padding-left: 30px;
+}
+
+#prev_datetime {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+}
+#prev_comment {
+  padding-left: 60px;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+
+/************************************/
+/**********history_area**************/
+/************************************/
+
+#history_area {
+  height: 250px;
+  width: 550px;
+  margin: 25px;
+}
+
+
+#history_list {
+  text-decoration:underline;
+  margin: 5px;
+}
+
+#history_button {
+  background-color:rgb(211, 203, 203);
+  color:rgb(55, 54, 54) ;
+  width: 550px;
+  font-weight:bold;
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid rgb(3, 47, 3);
+  border-radius:10px;
+  margin: 15px;
+}
