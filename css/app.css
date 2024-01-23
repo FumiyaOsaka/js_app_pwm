@@ -19,6 +19,11 @@ h1 {
   margin: 5px 5px 5px 0px;
 }
 
+h2 {
+  font-size: 20px;
+  margin: 5px 5px 5px 0px;  
+}
+
 /************************************/
 /*************header*****************/
 /************************************/
@@ -115,12 +120,18 @@ nav{
 table {
   table-layout:fixed;
   width:90%;
+  border: spacing 0;
+  border-collapse: collapse;
 }
 
 #history_list {
-  text-decoration:underline;
   margin: 5px 50px;
   font-size: 20px;
+}
+
+td {
+  border-bottom:solid 1px;
+  padding-top: 5px;
 }
 
 .hist_comment {
