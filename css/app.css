@@ -12,16 +12,16 @@ body {
   width: calc(100% - 300px);
   margin: 0 auto;
 }
-.ellipsis {
-  width: 400px; 
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+
 
 h1 {
   font-size: 20px;
-  margin: 5px 10px 5px 10px;
+  margin: 5px 5px 5px 0px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 5px 5px 5px 0px;  
 }
 
 /************************************/
@@ -67,9 +67,9 @@ nav{
 #register_button {
   background-color:rgb(161, 159, 159);
   color:rgb(55, 54, 54) ;
-  width: 550px;
+  width: 500px;
   font-weight:bold;
-  font-size: 20px;
+  font-size: 40px;
   text-align: center;
   margin: 10px;
   padding: 5px;
@@ -84,9 +84,11 @@ nav{
 #prev_area {
   background-color:rgb(211,203,203);
   height: 130px;
-  width: 530px;
-  margin: 25px;
-  padding-left: 30px;
+  width: 470px;
+  margin-top: 50px;
+  margin-left: 30px;
+  padding-left: 25px;
+  padding-top: 5px;
 }
 
 #prev_datetime {
@@ -95,9 +97,13 @@ nav{
   margin: 0;
 }
 #prev_comment {
-  padding-left: 60px;
+  padding-left: 35px;
   font-size: 15px;
   margin-bottom: 0;
+  width: 25em; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 
@@ -107,24 +113,43 @@ nav{
 
 #history_area {
   height: 250px;
-  width: 550px;
+  width: 500px;
   margin: 25px;
 }
 
+table {
+  table-layout:fixed;
+  width:90%;
+  border: spacing 0;
+  border-collapse: collapse;
+}
 
 #history_list {
-  text-decoration:underline;
-  margin: 5px;
+  margin: 5px 50px;
+  font-size: 20px;
 }
+
+td {
+  border-bottom:solid 1px;
+  padding-top: 5px;
+}
+
+.hist_comment {
+  width: 15em; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 
 #history_button {
   background-color:rgb(211, 203, 203);
   color:rgb(55, 54, 54) ;
-  width: 550px;
+  width: 500px;
   font-weight:bold;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   border: 2px solid rgb(3, 47, 3);
   border-radius:10px;
-  margin: 15px;
+  margin: 20px;
 }

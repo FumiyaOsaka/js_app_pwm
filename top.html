@@ -8,7 +8,7 @@
   <body>
     <header>
       <h1>
-        観葉植物水やり管理アプリ
+        観葉植物水やりチェッカー
       </h1>
     </header>
     <nav>TOP</nav>
@@ -25,26 +25,28 @@
         </button>
       </section>
       <section id="prev_area">
-        <h1>
+        <h2>
           前回の水やり
-        </h1>
+        </h2>
           <p id="prev_datetime">
             2024/01/10  17:15
           </p>
-          <p id="prev_comment" class="ellipsis" >
+          <p id="prev_comment" >
             カポックとゴムの木のみ、コウモリランと鉢植えは肥料追加aaaaaaaaaaaaa
           </p> 
       </section>
       <section id="history_area">
-        <h1>
+        <h2>
           履歴
-        </h1>
-          <p id="history_list" class="ellipsis">
-            2024/01/10 15:00  リビング分のみ 鉢植えメイン<br>
-            2024/01/10 15:00  リビング分のみaaaaaaaaaaaaaaaaa<br>
-            2024/01/10 15:00  リビング分のみmmmmmmmmmmmmmm<br>
-            2024/01/10 15:00  リビング分のみ<br>
-          </p>
+        </h2>
+          <table id="history_list">
+            <tr>
+              <td class="hist_datetime">2024/01/10</td><td class="hist_comment">リビングのみあああああああああああああああ</td>
+            </tr>
+            <tr>
+              <td class="hist_datetime">2024/01/10</td><td class="hist_comment">リビングのみああああああああ</td>
+            </tr>
+          </table>
         <button id="history_button" type="button">
           履歴の確認
         </button>
